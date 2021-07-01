@@ -1,0 +1,14 @@
+
+
+Flask
+
+
+
+pymysql
+
+
+
+
+
+redis
+
