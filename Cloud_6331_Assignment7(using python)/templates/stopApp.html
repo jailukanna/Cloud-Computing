@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kill App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link href="/static/css/footer.css" type="text/css" rel="stylesheet">
+        <link href="/static/css/userhomepage.css" type="text/css" rel="stylesheet">
+        <meta http-equiv="refresh" content="10" >
+
+<style>
+    body{
+        background: url(https://placeimg.com/img/bg-2.svg) repeat;
+    }
+</style>
+
+
+  </head>
+  <body>
+
+    <!-- NAVIGATION  -->
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-light badge-dark " style="background-color:#04091e;">
+        <div class=" conatainer-fluid" style="background-color:seagreen;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item p-4">
+                    <a class="nav-link active" href="/home" style="color: lightblue;">Home page <span class="sr-only">(current)</span></a>
+                </li>
+
+
+            </ul>
+            <canvas id="canvas" width="100" height="100">
+            </canvas>
+        </div>
+    </nav>
+
+
+
+
+
+  <div class="container">
+    <br/>
+      <!-- THIS FORM TO SEARCH FOR MAGNITUDE -->
+	<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm" method="POST" action="/stopApp">
+                                <div class="card-body row no-gutters align-items-center">
+                               <label for="kill" class="form-label"><b style="color: blue;font-size: larger;"> Are you Sure You want to Stop Game ?</b></label>
+                                <br>
+                                    <input class="form-control form-control-lg" id="kill" type="text" placeholder=" Yes / No" name="kill" required>
+
+                                <br>
+                                </div>
+                                 <div class="col-auto">
+                                        <button class="btn btn-lg btn-outline-primary" type="submit">Kill</button>
+                                 </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+    </div>
+</div>
+
+
+  </body>
+</html>
