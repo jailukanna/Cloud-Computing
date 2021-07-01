@@ -1,0 +1,783 @@
+/* Responsive for Mobile Screen  */
+
+@media only screen and (min-width:200px) and (max-width:1319px) {
+    .header {
+        width: 100%;
+    }
+    .header .navigation {
+        font-weight: bold;
+        background-color: #2f3742;
+        width: 99%;
+        height: max-content;
+    }
+    .header .navigation .links_container {
+        width: 99%;
+        height: 10%;
+    }
+    .container-fluid .leftside {
+        width: 99%;
+        float: left;
+        height: auto;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .container-fluid .leftside .oneHundred {
+        text-align: center;
+        padding-left: 20px;
+    }
+    .container-fluid .leftside .uta_img1 {
+        margin-left: 25%;
+        padding: 0%;
+    }
+    .container-fluid .right_side {
+        width: 99%;
+        float: left;
+        height: auto;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .container-fluid .leftside .word {
+        line-height: 15px;
+        position: static;
+    }
+    container-fluid .middle_side {
+        width: 99%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .container-fluid .middle_side .img_middle_side {
+        padding: 0%;
+        margin-left: 20%;
+    }
+    .container3 .middle_side .purpose {
+        text-align: center;
+    }
+    .container3 .middle_side .img_middle_side {
+        margin-left: 45%;
+        position: static;
+    }
+    .container-fluid .videoid .vedo {
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-fluid .videoid {
+        float: left;
+        width: 99%;
+        height: auto;
+        margin: auto;
+    }
+    .obj_div .objective {
+        text-align: center;
+        padding: 12px;
+    }
+    .container-fluid .obj_div .video_objects {
+        line-height: 20px;
+    }
+    .container-fluid .obj_div {
+        float: left;
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        background-color: aliceblue;
+    }
+    .foot .foot_div {
+        width: 50%;
+        float: left;
+        height: auto;
+        padding-top: 5%;
+    }
+    .foot .foot_div .foot_text {
+        line-height: 25px;
+        padding: 0%;
+        text-align: left;
+        margin: 0%;
+    }
+     .image_f_t {
+        width: auto;
+        float: left;
+        height: auto;
+    }
+    .foot .image_f_t .facbook,
+    .LinkedIn,
+    .instgram {
+        padding: 0%;
+        margin: 0%;
+        box-shadow: springgreen;
+        display: inline-flex;
+        opacity: inherit;
+        overflow: visible;
+    }
+    
+    .header .navigation .links_container .all_links {
+        display: flex;
+    }
+    .central .profile {
+        float: left;
+        width: 99%;
+        text-align: center;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .central .profile2 {
+        height: auto;
+        float: left;
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .central .profile2 .profile_picture {
+        width: 99%;
+        height: auto;
+    }
+    .central {
+        height: auto;
+    }
+    .cent {
+        height: auto;
+        display: inline-block;
+    }
+    .cent .about {
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+    }
+    .cent .about .PEDAGOGIC,
+    .list_objects {
+        line-height: 15px;
+    }
+    .cent .obras {
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+    }
+    .cent .obras .list_objects2 {
+        line-height: 15px;
+    }
+    .cent .about .list_objects {
+        line-height: 15px;
+    }
+    .container_central {
+        width: 99%;
+        height: auto;
+    }
+    .mission .mission-word {
+        text-align: center;
+    }
+    .mission .mission-paragraph {
+        line-height: 20px;
+    }
+    .container_1 .vision {
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        width: 98%;
+        position: relative;
+        height: auto;
+    }
+    .container_1 .mission {
+        float: left;
+        padding: 0px;
+        margin: 0px;
+        width: 98%;
+        height: auto;
+        position: relative;
+    }
+    .container_central .vision .mission-word2 {
+        text-align: center;
+    }
+    .div_middle {
+        width: 99%;
+        height: auto;
+    }
+    .div_middle .mini_div .img_middle_central {
+        height: auto;
+        position: relative;
+        margin: 0px;
+        margin-left: 40%;
+        padding: 0px;
+    }
+    .container_2 .mini_div {
+        float: left;
+        width: 98%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        display: block;
+    }
+    .div_middle .mini_divtwo {
+        float: left;
+        width: 98%;
+        height: auto;
+    }
+    .div_middle .mini_div .Valores {
+        margin: 0px;
+        padding-left: 40%;
+    }
+    .div_middle .vision-word44 {
+        line-height: 15px;
+    }
+    .cetral_page_div1 .nested_div_1 {
+        width: 99%;
+        float: left;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cetral_page_div1 .nested_div_1 .social {
+        text-align: center;
+        line-height: 15px;
+        text-anchor: middle;
+        font-style: italic;
+        font-size: 20px;
+    }
+    .cetral_page_div1 .nested_div_1 .nested-word1 {
+        line-height: 25px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cetral_page_div1 .nested_div_2 {
+        width: 99%;
+        float: left;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cetral_page_div1 .nested_div_2 .Stewardship {
+        text-align: center;
+        line-height: 15px;
+        text-anchor: middle;
+        font-style: italic;
+        font-size: 20px;
+    }
+    .cetral_page_div1 .nested_div_2 .nested-word2 {
+        line-height: 25px;
+        text-align: center;
+    }
+    .middle_div_central {
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        position: relative;
+        background-color: aqua;
+    }
+    .cetral_page_div1 {
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        position: relative;
+        height: fit-content;
+    }
+    .main_div .middle_div_central_nested1 {
+        float: left;
+        width: 99%;
+        height: fit-content;
+        padding: 0px;
+        margin: 0px;
+        background-color: coral;
+    }
+    .main_div .last_div_central .middle_div_central_nested2 .SOLIDARIDAD {
+        text-align: center;
+        line-height: 15px;
+        font-style: italic;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main_div .middle_div_central_nested1 .FRATERNIDAD {
+        text-align: center;
+        line-height: 15px;
+        font-style: italic;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main_div .middle_div_central_nested1 .nestedword3 {
+        line-height: 25px;
+        text-align: center;
+    }
+    .main_div .last_div_central .middle_div_central_nested2 {
+        float: left;
+        width: 99%;
+        height: fit-content;
+        margin: 0px;
+        padding: 0px;
+        background-color: coral;
+    }
+    .middle_div_central .middle_div_central_nested2 .nested-word4 {
+        text-align: center;
+        line-height: 15px;
+    }
+    .last_div_central {
+        float: left;
+        width: 99%;
+        height: auto;
+    }
+    .last_div_central .last_div_central1 {
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        display: block;
+        height: auto;
+        background-color: yellow;
+    }
+    .last_div_central .last_div_central1 .LIBERTAD {
+        text-align: center;
+    }
+    .last_div_central .last_div_central1 .nested-word5 {
+        line-height: 15px;
+        text-align: center;
+    }
+    .last_div_central .last_div_central2 {
+        float: left;
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        background-color: aqua;
+        display: block;
+    }
+    .last_div_central .last_div_central2 .CONSTANCIA {
+        text-align: center;
+    }
+    .container_project .project_first_div {
+        padding: 0px;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    .container_project .project_first_div .img_central_project {
+        margin-left: 40%;
+        width: 70px;
+        height: 70px;
+    }
+    .container_project .project_first_div .message_under_picture {
+        line-height: 25px;
+        height: auto;
+        width: auto;
+        padding: 0px;
+        font-size: 20px;
+    }
+    .project_second_div {
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .project_second_div .img_central_project_people {
+        height: auto;
+        float: left;
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .project_second_div .img_central_project_people .imge_graduate {
+        width: 99%;
+        margin: 0px;
+        padding: 0px;
+        height: fit-content
+    }
+    .project_second_div .central_project_brief {
+        height: auto;
+        float: left;
+        width: 99%;
+        padding: 0px;
+        margin: 0px;
+        background-color: coral;
+    }
+    .project_second_div .central_project_brief .Por_el_Centro {
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic;
+        padding: 0px;
+        margin: 0px;
+    }
+    .project_third_div {
+        float: left;
+        width: auto;
+        height: auto;
+    }
+    .project_third_div .another_brief {
+        float: left;
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .project_third_div .button {
+        border-radius: 40%;
+        width: 90px;
+        height: auto;
+        position: relative;
+        display: flex;
+    }
+    .project_third_div .pic_project {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .project_third_div .pic_project .descarga {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .project_third_div .another_brief .speech {
+        padding: 0px;
+        margin: 0px;
+        color: black;
+    }
+    .project_second_div .central_project_brief .people_brief {
+        padding: 0px;
+        margin: 0px;
+        color: black;
+    }
+    .Event .speech_event {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .Event .event_picutre {
+        float: left;
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .Event .event_picutre .pitucre_E {
+        padding: 0px;
+        margin: 0px;
+        width: 99%;
+        height: auto;
+        float: left;
+    }
+    .help_video_login .video {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .help_video_login .video .somo {
+        line-height: 20px;
+        font-style: italic;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    .video_collection .video1 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .video_collection .video1 .Dr1 {
+        width: 99%;
+    }
+    .video_collection .video1 .dr_francio {
+        line-height: 15px;
+    }
+    .video_collection .video1 .dr_francio_info {
+        line-height: 12px;
+    }
+    .video_collection .video2 {
+        margin: 0px;
+        padding: 0px;
+        width: 99%;
+        height: auto;
+    }
+    .video_collection .video2 .Dr2 {
+        width: 99%;
+        height: 50%;
+    }
+    .video_collection .video3 {
+        margin: 0px;
+        padding: 0px;
+        width: 99%;
+        height: auto;
+    }
+    .video_collection .video3 .Dr3 {
+        width: 99%;
+        height: 50%;
+    }
+    .video_collection .video4 {
+        margin: 0px;
+        padding: 0px;
+        width: 99%;
+        height: auto;
+    }
+    .video_collection .video4 .Dr4 {
+        width: 99%;
+        height: 50%;
+    }
+    .video_collection .video4 .dr_francio1123 {
+        line-height: 10px;
+    }
+    .help_team_login .team {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .help_team_login .team .team_intro {
+        line-height: 15px;
+    }
+    .team_information .prof1 {
+        padding: 0px;
+        margin: 0px;
+        width: 99%;
+        height: auto;
+    }
+    .team_information .prof1 .host {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .ALEX {
+        line-height: 15px;
+    }
+    .prof_2 .inside_prof_2 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .GISELA_photo {
+        width: 80%;
+    }
+    .prof_4 .porf_MARÍA_4 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .MARÍA {
+        width: 80%;
+    }
+    .GISELA {
+        line-height: 15px;
+    }
+    .team_information .prof_2 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .team_information .prof_3 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .team_information .porf_JUDITH_3 {
+        width: 99%;
+        height: auto;
+    }
+    .prof_3 .porf_JUDITH_3 .JUDITH {
+        width: 80%;
+    }
+    .prof1 .host .poto_1 {
+        width: 80%;
+    }
+    .prof_3 .porf_JUDITH_3 .GISELA_name {
+        line-height: 15px;
+    }
+    .team_information .prof_3 .porf_JUDITH_3 .GISELA_name {
+        line-height: 15px;
+    }
+    .team_information .prof_4 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .maria {
+        line-height: 14px;
+    }
+    .prof_5 .porf_TAMARA_5 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .porf_TAMARA_5 .TAMARA {
+        width: 80%;
+    }
+    .team_information .prof_5 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .team_information .prof_6 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .help_team_login {
+        width: 99%;
+        background-color: red;
+    }
+    .TERESITA_name {
+        line-height: 15px;
+    }
+    .prof_6 .porf_TERESITA_5 {
+        width: 99%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .porf_TERESITA_5 .TERESITA {
+        width: 80%;
+    }
+    .login_div .login_title {
+        line-height: 20px;
+    }
+    .login_div .min_login {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .login_div .second_min_div {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .login_div .second_min_div .input_1 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .login_div .second_min_div .input_2 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .login_div .second_min_div .input_3 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .login_div .second_min_div .input_3 .submitlogin {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 100px;
+        position: static;
+        display: block;
+        margin-top: 10px;
+    }
+    .login_div .second_min_div .input_2 .password1 {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 200px;
+        position: static;
+        display: block;
+        margin-top: 30px;
+    }
+    .login_div .second_min_div .input_1 .user {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 200px;
+        position: static;
+        display: block;
+    }
+    .login_div .second_min_div .input_3 {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .middle_reg .enter_info {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .middle_reg .enter_info .first_name {
+        margin-left: 30px;
+        display: block;
+        position: static;
+        width: 250px;
+    }
+    .enter_info .last_name {
+        margin-left: 30px;
+        display: block;
+        position: static;
+        width: 250px;
+    }
+    .enter_info .password {
+        margin-left: 30px;
+        display: block;
+        position: static;
+        width: 250px;
+    }
+    .enter_info .password2 {
+        margin-left: 30px;
+        display: block;
+        position: static;
+        width: 250px;
+    }
+    .enter_info .emil_reg {
+        margin-left: 30px;
+        display: block;
+        position: static;
+        width: 250px;
+    }
+    .enter_info .reg_button {
+        margin-left: 75px;
+        display: block;
+        position: static;
+        width: 100px;
+    }
+    .middle_reg .reg_logo_r {
+        width: 99%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .middle_reg .reg_logo_r .img_register2 {
+        padding: 0px;
+        margin: 0px;
+        width: 100px;
+        height: 100px;
+        margin-left: 80px;
+        position: static;
+        display: block;
+    }
+    .pp {
+        line-height: 20px;
+        position: static;
+        display: block;
+    }
+}

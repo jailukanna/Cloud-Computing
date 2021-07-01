@@ -1,0 +1,1884 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.bb {
+    width: 80px;
+    margin-top: 20px;
+    color: white;
+    background-color: #9900cc;
+    position: relative;
+}
+.nav-item:hover{
+	background:#2e3036;
+	transform: scale(1.1);
+	border-radius: 10px;	
+}
+
+.nav-link{
+	font-family: 'Merienda One', cursive;
+}
+.bbb {
+    width: 80px;
+    margin-top: 20px;
+    color: white;
+    background-color: #9900cc;
+    margin-left: 20px;
+    position: relative;
+}
+
+h1 {
+    color: #6059f6;
+    line-height: 3px;
+    font-family: Rajdhani;
+}
+
+h2,
+h3 {
+    color: #000000;
+    line-height: 3px;
+    font-family: Rajdhani;
+}
+
+h5,
+h4,
+h6 {
+    font-family: Rajdhani;
+    color: #777777;
+}
+
+p {
+    color: #777777;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 1.667px;
+    word-wrap: break-word;
+}
+
+
+/*Navigation Links*/
+
+.all_links {
+    overflow: hidden;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400px;
+    color: black;
+}
+
+.logo_adjust {
+    float: left;
+    width: 15%;
+}
+
+.all_links2 {
+    font-family: cursive;
+    font-size: large;
+    font-style: italic;
+    align-content: center;
+}
+
+.bootn {
+    background-color: #6059f6;
+    color: white;
+    align-self: center;
+    width: 180px;
+    height: 50px;
+}
+
+.bootn :hover {
+    color: aqua;
+}
+
+#child_nav {
+    float: left;
+    width: auto;
+    height: 300px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+
+/* For Cento AuGusto Home Page*/
+
+.leftside {
+    width: 50%;
+    height: auto;
+    margin-top: 90px;
+    float: left;
+}
+
+
+/*Right Div Home Page*/
+
+.right_side {
+    float: left;
+    height: auto;
+    width: 45%;
+    margin-top: 90px;
+    margin-left: 40px;
+    background-color: aliceblue;
+}
+
+
+/*Word   Welcom in Home Page*/
+
+.welcome {
+    text-align: center;
+}
+
+#logo {
+    /* For logo pic inside Footer*/
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+
+/* This for video Home Page*/
+
+.container-fluid .videoid {
+    margin-top: 2%;
+    height: auto;
+    width: auto;
+    float: left;
+    padding: 0%;
+}
+
+
+/* This for Objective part Home Page */
+
+.container-fluid .obj_div {
+    height: auto;
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.objective {
+    text-align: center;
+    font-style: italic;
+}
+
+.video_objects {
+    /* Video object points */
+    color: darkgray;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    line-height: 20px;
+}
+
+#container {
+    /*middle paragraph*/
+    display: inline;
+}
+
+
+/* Speech in middle */
+
+.middle_side {
+    padding: 2px;
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: aliceblue;
+}
+
+
+/* Image in middle Home Page*/
+
+.img_middle_side {
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    margin-left: 45%;
+}
+
+.purpose {
+    /* purpose in middle */
+    text-align: center;
+}
+
+.img_in_side {
+    margin-top: 30px;
+    margin-left: 35%;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+.word {
+    text-align: center;
+}
+
+#name {
+    color: whitesmoke;
+    text-align: left;
+    font-style: italic;
+}
+
+.facbook {
+    /* Facebook picture*/
+    position: relative;
+    margin-left: 20%;
+}
+
+.instgram {
+    /* Twitter picture*/
+    position: relative;
+    margin-left: 10%;
+}
+
+.follow {
+    text-align: center;
+    padding-right: 250px;
+    color: whitesmoke;
+}
+
+
+/* Linkdin picture*/
+
+.LinkedIn {
+    position: relative;
+    margin-left: 10%;
+}
+
+.foot{
+    background-color: #04091e;
+    height:auto;
+    width: 100%;
+    margin-top:15%;
+    float: left;
+
+}
+
+/* CopyRight div in Footer */
+
+.foot_div {
+    height: fit-content;
+   float: left;
+    width: 50%;
+    margin: auto;
+
+}
+
+.foot_div_v{
+    height: fit-content;
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media only screen and (min-width:1200px) and (max-width: 1900px){
+    .image_f_t_t .container-fluid .followus{
+
+        margin-left: auto;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .foot_div_v{
+        width: 100%;
+        float: left;
+        height: auto;
+
+    }
+    .foot_div_v .foot_text1{
+        line-height: 20px;
+
+    }
+
+
+    .image_f_t_t{
+        width: 100%;
+        height: auto;
+
+        float: left;
+    }
+
+    .image_f_t .followus{
+        line-height: 25px;
+        margin-left: 0px;
+
+
+    }
+
+    .image_f_t_t .container-fluid .facbook1{
+        margin: 2%;
+        padding:0px;
+        float: left;
+        position: relative;
+
+    }
+
+    .image_f_t_t .container-fluid .LinkedIn1{
+        margin: 2%;
+        padding:0px;
+        margin-left: 5px;
+        float: left;
+        position: relative;
+    }
+
+
+    .image_f_t_t .container-fluid .instgram1{
+        margin: -5%;
+        margin-left: 5px;
+        float: left;
+        position: relative;
+        height: 45px;
+
+    }
+
+
+    #canvas{
+       display: none;
+    }
+
+
+
+}
+
+
+
+.image_f_t_t{
+    height: fit-content;
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    padding-top: 110px;
+
+}
+
+.followus{
+text-space: 5px;
+    margin-left: 250px;
+    line-height: 12px;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    position: sticky;
+}
+
+.foot_text1{
+    text-align: center;
+    padding-top: 150px;
+    color: whitesmoke;
+    float:left;
+
+}
+
+.facbook1{
+margin-left:320px;
+    position: static;
+}
+
+.LinkedIn1{
+    margin-left: 70px;
+    position: sticky;
+}
+
+.instgram1{
+    margin-left: 70px;
+    position: relative;
+}
+
+.image_f_t {
+    /* face book , twitter div */
+    height: fit-content;
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    padding-top: 110px;
+
+}
+
+
+
+
+.mini_div {
+    width: 50%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-top: 2%;
+    display: block;
+    background-color: aliceblue;
+}
+
+
+/*Div Container introduction Profile page*/
+
+.profile {
+    width: auto;
+    float: left;
+    overflow-y: auto;
+}
+
+
+/* Div container Picture Profile Page*/
+
+.profile2 {
+    position: relative;
+    padding-left: 100px;
+    margin-top: 100px;
+    overflow-y: auto;
+}
+
+
+/* Div Include profile & introduction Profile Page */
+
+.central {
+    margin: auto;
+    height: 600px;
+}
+
+.cent {
+    height: 600px;
+}
+
+.list_objects {
+    color: darkgray;
+    padding-left: 2%;
+    padding-top: 40px;
+}
+
+.list_objects2 {
+    color: darkgray;
+    padding-top: 2%;
+    word-break: break-all;
+    padding-left: 3%;
+    word-wrap: break-word;
+}
+
+
+/*About profile page*/
+
+.about {
+    display: inline-block;
+    width: 500px;
+    margin-left: 120px;
+    height: 500px;
+    margin-right: 300px;
+    position: absolute;
+}
+
+
+/*obras profile page*/
+
+.obras {
+    display: inline-block;
+    width: 380px;
+    margin-left: 50%;
+    height: 480px;
+    background-color: aliceblue;
+    line-height: 5px;
+    position: absolute;
+}
+
+
+/*Abort word*/
+
+.Abort {
+    padding: 10px;
+}
+
+
+/* Orbas word*/
+
+.Orbas_word {
+    padding-left: 40%;
+    padding-bottom: 15%;
+    padding-top: 5%;
+}
+
+.foot_container {
+    height: auto;
+    width: 99%;
+}
+
+
+/*Foot text*/
+
+.foot_text {
+    text-align: left;
+    color: whitesmoke;
+    padding-top: 120px;
+    padding-left: 40px;
+}
+
+
+/*Div First Container Central Page*/
+
+.container_central {
+    height: 500px;
+    width: 99%;
+}
+
+
+/*Mission Div Central Page*/
+
+.mission {
+    float: left;
+    display: block;
+    width: 40%;
+    height: 200px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+
+/*vision Div in Central Page*/
+
+.vision {
+    display: block;
+    float: left;
+    width: 40%;
+    height: 200px;
+    margin-left: 160px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+.mission-word {
+    text-align: center;
+    position: relative;
+}
+
+.mission-word2 {
+    text-align: center;
+    position: relative;
+}
+
+.mission-paragraph {
+    padding: 4%;
+    line-height: 20px;
+}
+
+.BIENVENIDA-paragraph {
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.central_div1 {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.central_div2 {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.list {
+    padding: 0%;
+    margin: auto;
+    line-height: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-align: left;
+}
+
+.admission {
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+
+.vision-word2 {
+    padding: 4%;
+    line-height: 20px;
+}
+
+.vision-word44 {
+    line-height: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/*2nd Div Central Page*/
+
+.div_middle {
+    height: 300px;
+    width: 99%;
+    background-color: burlywood;
+}
+
+
+/* Middle Logo in Central Page */
+
+.img_middle_central {
+    margin-left: 50%;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+
+/*Valores Central Page*/
+
+.Valores {
+    text-align: center;
+    padding-left: 60px;
+}
+
+
+/*big container in Central Page*/
+
+.big_container {
+    width: 99%;
+    height: auto;
+}
+
+
+/*Container in Team Page*/
+
+.help_team_login {
+    width: 99%;
+    height: auto;
+}
+
+
+/*First Sub Div in Central Page*/
+
+.cetral_page_div1 {
+    width: 99%;
+    float: left;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*social & Stewardship in Central Page*/
+
+.social,
+.Stewardship {
+    text-align: center;
+    line-height: 15px;
+}
+
+
+/* Nested Div1  Central Page*/
+
+.nested_div_1 {
+    float: left;
+    width: 30%;
+    height: fit-content;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+/* Nested Div2  Central Page*/
+
+.nested_div_2 {
+    float: left;
+    height: fit-content;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.nested-word1,
+.nested-word2 {
+    padding-top: 6px;
+    line-height: 22px;
+}
+
+.nestedword3 {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    padding-bottom: 1px;
+}
+
+
+/* Middle Div in Central Page*/
+
+.middle_div_central {
+    width: 25%;
+    float: left;
+    height: auto;
+}
+
+
+/*FRATERNIDAD  in Central Page*/
+
+.FRATERNIDAD {
+    padding-left: 80px;
+}
+
+
+/*Nested Div inside middle Div in Central Page*/
+
+.middle_div_central_nested1 {
+    background-color: coral;
+    height: auto;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+/*Nested Div2 inside middle Div in Central Page*/
+
+.middle_div_central_nested2 {
+    background-color: coral;
+    height: auto;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.SOLIDARIDAD {
+    padding-left: 100px;
+}
+
+.nested-word4 {
+    line-height: 22px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*Last Sub Div container contain (Freedom , Contancy ) in Central Page*/
+
+.last_div_central {
+    width: 99%;
+    float: left;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Freedom Div Central Page*/
+
+.last_div_central1 {
+    height: fit-content;
+    width: 30%;
+    float: left;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+/* Constancy Div Central Page*/
+
+.last_div_central2 {
+    float: left;
+    height: auto;
+    width: 30%;
+    background-color: aqua;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.LIBERTAD,
+.CONSTANCIA {
+    text-align: center;
+}
+
+.nested-word5,
+.nested-word6 {
+    line-height: 22px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+
+/*First Div in Project Page*/
+
+.project_first_div {
+    height: 200px;
+    width: 40%;
+    margin-top: 100px;
+    display: block;
+    position: static;
+}
+
+
+/*Div Contain Logo and Un responsiblities in Project Page*/
+
+.container_project {
+    width: 99%;
+    height: auto;
+    float: left;
+}
+
+
+/* Universal Social in Projects Page*/
+
+.message_under_picture {
+    line-height: 20px;
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+
+.img_central_project {
+    margin-left: 40%;
+    width: 70px;
+    height: 70px;
+}
+
+
+/*2nd Div in project page*/
+
+.project_second_div {
+    height: auto;
+    float: left;
+    width: 99%;
+    margin-bottom: 40px;
+}
+
+
+/*Graduation image Div in Project Page*/
+
+.img_central_project_people {
+    padding-left: 50px;
+    float: left;
+    width: 40%;
+    margin-top: 70px;
+    position: static;
+}
+
+.imge_graduate {
+    width: 550px;
+    height: 300px;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+/*2nd Div Conatin Graduation breif in Project Page*/
+
+.central_project_brief {
+    float: left;
+    width: 50%;
+    margin-left: 15px;
+    position: static;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.Por_el_Centro {
+    padding-left: 50px;
+}
+
+.people_brief {
+    line-height: 25px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+
+/*Middle Div in Projects page*/
+
+.project_third_div {
+    background-color: aliceblue;
+    height: auto;
+    float: left;
+    width: 99%;
+}
+
+.another_brief {
+    float: left;
+    width: 35%;
+    height: 550px;
+}
+
+.pic_project {
+    float: left;
+    width: 50%;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.speech {
+    line-height: 20px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+
+#Leer_Mas {
+    color: #fff;
+}
+
+.Event {
+    height: auto;
+    width: 99%;
+}
+
+.help_video_login {
+    width: 99%;
+    height: auto;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.speech_event {
+    width: 30%;
+    float: left;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+
+.event_picutre {
+    width: auto;
+    float: left;
+    height: auto;
+    margin-left: 250px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+.pitucre_E {
+    width: 400px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.MAESTRÍA {
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.MAESTRÍA_speech,
+.MAESTRÍA_speech2,
+.MAESTRÍA_speech3,
+.MAESTRÍA_speech4,
+.MAESTRÍA_speech5 {
+    line-height: 15px;
+}
+
+
+/*First COntainter conatins logo in Team Page*/
+
+.team {
+    height: auto;
+    float: left;
+    width: 99%;
+    margin-top: 100px;
+}
+
+.logo_team {
+    width: 75px;
+    height: 75px;
+    margin-left: 40%;
+    position: static;
+}
+
+.team_intro {
+    position: static;
+    margin-left: 28%;
+}
+
+.team_information {
+    height: auto;
+    width: 99%;
+    float: left;
+}
+
+.prof1 {
+    width: 375px;
+    height: 390px;
+    float: left;
+    margin-left: 20px;
+    background-color: aqua;
+    display: block;
+}
+
+.poto_1 {
+    padding-left: 25px;
+}
+
+.host {
+    width: 300px;
+    height: 250px;
+}
+
+#info_p1 {
+    line-height: 18px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#fig_cap {
+    padding-left: 7px;
+}
+
+.prof_2 {
+    float: left;
+    height: 400px;
+    width: 375px;
+    margin-left: 20px;
+    display: block;
+    background-color: aqua;
+}
+
+.GISELA_photo {
+    padding-left: 25px;
+}
+
+#info_p2 {
+    line-height: 18px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.inside_prof_2 {
+    width: 375px;
+    height: 250px;
+}
+
+.GISELA {
+    padding-left: 20px;
+}
+
+#ALEX {
+    padding-left: 20px;
+}
+
+.prof_3 {
+    height: 400px;
+    float: left;
+    width: 375px;
+    background-color: aqua;
+    display: block;
+    margin-left: 50px;
+}
+
+.info_p3,
+.info_p4,
+.info_p5,
+.info_p6 {
+    line-height: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.porf_JUDITH_3 {
+    height: 250px;
+}
+
+.JUDITH {
+    padding-left: 33px;
+}
+
+.GISELA_name {
+    padding-left: 25px;
+}
+
+.prof_4 {
+    height: 400px;
+    float: left;
+    width: 375px;
+    background-color: aqua;
+    display: block;
+    margin-left: 20px;
+}
+
+.porf_MARÍA_4 {
+    height: 250px;
+}
+
+.MARÍA {
+    padding-left: 25px;
+}
+
+.prof_5 {
+    height: 450px;
+    float: left;
+    width: 375px;
+    background-color: aqua;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.porf_TAMARA_5 {
+    height: 250px;
+}
+
+.TAMARA,
+.TAMARA_name {
+    padding-left: 27px;
+}
+
+.prof_6 {
+    height: 450px;
+    margin-top: 10px;
+    float: left;
+    width: 375px;
+    background-color: aqua;
+    display: block;
+    margin-left: 50px;
+}
+
+.porf_TERESITA_5 {
+    height: 250px;
+}
+
+.TERESITA_name {
+    padding-left: 20px;
+}
+
+.TERESITA {
+    padding-left: 22px;
+}
+
+.min_login {
+    width: 99%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+
+.form{
+    width: 37%;
+     box-shadow: 0 0 20px 5px #04091e14;
+    height: 80%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 32%;
+}
+
+.emailaddress{
+    margin: 5%;
+    padding: 0%;
+}
+
+.passo{
+    margin-top: 5%;
+    padding: 0%;
+    margin-bottom: 10%;
+}
+
+.checkedBox{
+    width: 2px;
+    height: 1px;
+}
+
+
+.second_min_div {
+    width: 99%;
+    height: auto;
+    float: left;
+}
+
+.login_div {
+    width: 100%;
+    height: 650px;
+    float: left;
+    background-image: url("../images/divbg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.formbg{
+    background: white;
+    border-radius: 30px;
+}
+
+.login {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img_div {
+    padding-left: 42%;
+    width: 100px;
+    height: 100px;
+    position: static;
+    display: block;
+    padding-top: 50px;
+}
+
+.login_title {
+    padding-left: 40%;
+    position: static;
+}
+
+#login_titl2 {
+    padding-left: 41%;
+}
+
+
+
+
+.input_1, .input_3{
+    width:auto;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.input_2{
+    width:auto;
+    height: fit-content;
+    margin-top: 10px;
+    background-color: #9900cc;
+}
+
+
+.divresults{
+    width: auto;
+    height: auto;
+
+}
+
+.result1{
+text-align: center;
+    margin-top: 10%;
+    color: Red;
+    line-height: 12px;
+    text-transform: capitalize;
+}
+
+.result2{
+    text-align: center;
+    margin-top: 5%;
+    color: Red;
+    line-height: 12px;
+    text-transform: capitalize;
+}
+
+
+
+.email_word{
+padding-top: 20px;
+  text-align: center;
+    color: #04091e;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+
+.paword{
+    padding-top: 20px;
+    text-align: center;
+    color: #04091e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+
+
+
+
+
+.input_1 input {
+    width:50%;
+    padding:0px;
+    margin-top: 2%;
+    margin-left: 25%;
+    border: groove;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    color: #04091e;
+    box-shadow: 0 0 20px 3px lightblue;
+
+}
+
+
+.input_2 input {
+    padding:0px;
+    margin-top: 2%;
+    width:50%;
+    margin-left: 25%;
+    border: groove;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    color: #04091e;
+    box-shadow: 0 0 20px 3px lightblue;
+}
+
+
+
+
+/* Login password*/
+
+.password1 {
+    margin-left: 2%;
+    width: 250px;
+    height: 25px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.showpassword{
+    margin-left: 2%;
+    margin-top: 1%;
+
+}
+
+.submitbutton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;
+    background-color: lightblue;
+    width: auto;
+
+}
+
+.buttonlogin {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;
+    background-color: lightblue;
+    width: auto;
+    margin-left: auto;
+}
+
+.jam {
+    height: 220px;
+    width: 220px;
+    box-shadow: crimson;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0%;
+    margin: auto;
+}
+
+.firstinner,
+.secondinner {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+}
+
+.introduction_jam {
+    text-align: left;
+    line-height: 12px;
+}
+
+.img_register {
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+}
+
+.register {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 0%;
+
+}
+
+.horse {
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    padding: 0%;
+
+}
+
+.utaregister {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.reg {
+    padding-left: 41%;
+}
+
+
+/*2nd Div in Register Page*/
+
+.middle_reg {
+    float: left;
+    width: 99%;
+    height: auto;
+    background-color: aqua;
+}
+
+.fa.active {
+    color: red;
+}
+
+.enter_info {
+    padding-top: 100px;
+    margin-left: 70px;
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+.instruction-conatiner {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.instruction {
+    color: black;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+::placeholder {
+    font-size: 1px solid;
+    color: grey;
+}
+
+.img_register2 {
+    width: 200px;
+    height: 200px;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.pp {
+    padding-left: 90px;
+}
+
+.reg_logo_r {
+    height: 400px;
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+}
+
+
+/* Div in middle of page in Video Page*/
+
+.video {
+    height: auto;
+    margin-top: 80px;
+    width: 99%;
+}
+
+.vide_logo2 {
+    width: 75px;
+    height: 75px;
+    margin-left: 43%;
+}
+
+.somo {
+    margin-left: 33%;
+    position: static;
+}
+
+.video_collection {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    background-color: aliceblue;
+}
+
+.video1 {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    margin-left: 50px;
+}
+
+.Dr1 {
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+}
+
+.video2 {
+    display: inline-block;
+    width: auto;
+    margin-left: 100px;
+}
+
+.Dr2 {
+    width: auto;
+}
+
+.video3 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+}
+
+.Dr3 {
+    width: auto;
+}
+
+.video4 {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Dr4 {
+    margin-left: 5px;
+    width: auto;
+}
+
+.dr_francio1123 {
+    padding-left: 10%;
+    line-height: 1.477px;
+}
+
+.first_name {
+    display: inline-block;
+    width: 50%;
+    height: 35px;
+    display: block;
+    position: static;
+    box-sizing: border-box;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.last_name {
+    display: inline-block;
+    width: 50%;
+    height: 35px;
+    display: block;
+    position: static;
+    box-sizing: border-box;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.password {
+    /* Password Register page*/
+    display: inline-block;
+    width: 50%;
+    height: 35px;
+    margin-top: 20px;
+    display: block;
+    position: static;
+    border: none;
+    outline: none;
+}
+
+.password-container {
+    width: 50%;
+    border-bottom: 2px solid #fff;
+}
+
+.password-container2 {
+    width: 50%;
+    height: auto;
+    border-bottom: 2px solid #fff;
+}
+
+.password-container2 input {
+    width: 90%;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.password-container3 {
+    width: 50%;
+    border-bottom: 2px solid #fff;
+}
+
+.first-name-container {
+    width: 50%;
+    border-bottom: 2px solid #fff;
+}
+
+.first-name-container input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.last-name-container {
+    width: 50%;
+    border-bottom: 2px solid #fff;
+}
+
+.last-name-container input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.password-container3 input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fa-eye {
+    left: 23%;
+    position: absolute;
+    padding-top: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+}
+
+.fa-eye-slash {
+    left: 23%;
+    position: absolute;
+    padding-top: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+}
+
+#psss {
+    display: none;
+}
+
+#pas1 {
+    display: none;
+}
+
+.password-container input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.password2 {
+    /* Confirm password register page*/
+    display: inline-block;
+    width: 50%;
+    height: 35px;
+    margin-top: 20px;
+    display: block;
+    position: static;
+    border: blueviolet;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.emil_reg {
+    display: inline-block;
+    width: 50%;
+    height: 35px;
+    margin-top: 20px;
+    display: block;
+    position: static;
+    border: blueviolet;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.reg_button {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    background-color: #6059f6;
+}
+
+.dr_francio {
+    padding-left: 40px;
+}
+
+.dr_francio_info {
+    padding-left: 10%;
+    line-height: 1.477px;
+}
+
+#dr_francio_info22 {
+    padding-left: 15%;
+    line-height: 1.477px;
+}
+
+#dr_francio1 {
+    padding-left: 10%;
+    line-height: 1.477px;
+}
+
+#dr_francio12 {
+    padding-left: 10%;
+    line-height: 1.477px;
+}
+
+.maindirector {
+    padding: auto;
+    margin: auto;
+    height: 900px;
+    width: 100%;
+}
+
+.child {
+    padding: auto;
+    margin: auto;
+    height: 900px;
+    width: 99%;
+}
+
+.child_left {
+    position: relative;
+    float: left;
+    clear: left;
+    height: 400px;
+    width: 15%;
+}
+
+#forPostyouradd {
+    background-color: graytext;
+    padding: auto;
+    margin: auto;
+    height: 880px;
+    width: 80%;
+    position: static;
+    margin-left: 15px;
+}
+
+
+/* --------------------------------------------------  Video Controll Page Setting ----------------------------------------------- */
+
+.general_div {
+    width: 99%;
+    height: auto;
+}
+
+.general_div2 {
+    width: 99%;
+    height: 100%;
+}
+
+.top_child {
+    height: 400px;
+    width: 100%;
+}
+
+.top_child2 {
+    height: auto;
+    width: auto;
+}
+
+.middle_child2 {
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+}
+
+.middle_child {
+    height: auto;
+    width: 100%;
+}
+
+.bootom_child {
+    background-color: #6059f6;
+    height: 200px;
+    width: 100%;
+}
+
+.table {
+    height: auto;
+    width: 80%;
+    position: relative;
+}
+
+.table,
+th,
+td {
+    border: 1px solid black;
+    padding: auto;
+    align-content: center;
+}
+
+#form_video {
+    position: static;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.formvideo2 {
+    width: auto;
+    height: auto;
+}
+
+.heder1,
+heder2,
+heder3,
+heder4 {
+    height: 30px;
+    width: 10%;
+    position: static;
+}
+
+.form_event {
+    width: 100%;
+    height: auto;
+}
+
+.p100 {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}

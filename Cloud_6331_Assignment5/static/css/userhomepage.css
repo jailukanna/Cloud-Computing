@@ -1,0 +1,215 @@
+/* CSS Document */
+
+
+.middlebody{
+	height: auto;
+	margin-top: 4%;
+}
+.cbg{
+	background:white; 
+}
+.containerbox{
+	max-width: 70%;
+}
+.col{
+	height: 30vh;
+	border: 0.0px solid #dad8d8;
+	font-size: 2rem;
+	 box-shadow: 0 0 20px 5px #04091e14;
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 30vh;
+  	text-align: center; 
+	border-radius:30px;
+	font-weight: 600;
+}
+
+.clubdivs{
+	border-radius: 15px; 
+	 box-shadow: 0 0 20px 5px #04091e14;
+	border: 0.0px solid #dad8d8;
+	margin-bottom: 10px;
+}
+
+.mhead{
+	margin:auto;
+}
+
+.messagedivs{
+	border-radius: 15px; 
+	 box-shadow: 0 0 0px 1px #04091e14;
+	border: 1px solid #dad8d8;
+	margin-bottom: 10px;
+}
+.newmessage button{
+	margin-top:15px;
+	font-size:0.7rem;
+}
+
+.messagebody:hover{
+	background: #f4f4f4;
+	border: 1px solid black;
+}
+
+
+.messagepic{
+	margin:auto;
+}
+.circular_image img , .advimage img{
+  width:100%;
+}
+.circular_image:hover , .advimage:hover{
+	transform: scale(1.1);
+}
+.circular_image{
+	max-width: 5vw;
+  max-height: 5vw;
+  border-radius: 50%;
+  overflow: hidden;
+  border:1px solid black;
+ 
+}
+
+
+ 
+.advimage{
+    max-width: 10vw;
+    max-height: 10vw;
+    border-radius: 5%;
+    overflow: hidden;
+    border: 1px solid black;	
+}
+
+
+
+
+.mtitle{
+	text-decoration:underline;
+	font-family: 'Crete Round', serif;
+	font-size: 1.2rem;
+}
+.mtitle:hover{
+	text-decoration:none;
+}
+
+.mbody{
+	font-size: 1rem;
+	font-family: 'Crimson Text', serif;
+}
+
+.sender{
+	color:#0770a3;
+}
+.messagebody{
+		text-align:left;
+		min-height:100px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		
+}
+
+
+.allclubs:hover{
+	 background-color: #0056B3!important;
+}
+
+.allclubs{
+	color:white;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	min-height: 45px;
+}
+
+ .messagediv:hover{
+	 background-color: #0056B3!important;
+}
+
+.messagediv{
+	color:black;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+
+.mttle{
+	margin-left:10vw;
+}
+
+.textheading{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2rem;
+	
+}
+
+.clubs{
+	background: url("../images/clubs.jpg") no-repeat;
+	background-position:center;
+	background-size: 100% 100%;
+	
+}
+.exchange{
+	background: url("../images/exchange.jpg") no-repeat;
+	background-position:center;
+	background-size: 100% 100%;
+		
+}
+.messages{
+	background: url("https://th.bing.com/th/id/R33cfddb36868c46efb1d8097a1f545a0?rik=ZKJOfzdWISvyxA&riu=http%3a%2f%2fwww.interprint-services.co.uk%2fwp-content%2fuploads%2f2016%2f12%2femail-icon-transparent-background-300x300.png&ehk=0L8c%2bE9Z66nguqwsALTIqm7rgBG2G9%2f%2bd1kDXu5q%2bDs%3d&risl=&pid=ImgRaw") no-repeat;
+	background-position:center;
+	background-size: contain;
+	
+}
+
+.advs{
+	background: url("https://www.thegenaugroup.com/wp-content/uploads/2020/04/Project-Management.png") no-repeat;
+	background-position:center;
+	background-size: contain;
+}
+.myprofile{
+	background: url("https://www.shareicon.net/data/2016/06/30/788856_edit_512x512.png") no-repeat;
+	background-position:center;
+	background-size: contain;
+}
+	
+.col:hover{
+	box-shadow: 0 0 20px 5px #04091e54;
+	font-size: 2.1rem;
+}
+
+.basetextcolor{
+	color: #4c727f;
+}
+
+.nav-item:hover{
+	background:#2e3036;
+	}
+
+
+.form-control {
+    border: 4;
+}
+
+
+
+/* Define minimum font size */
+html {
+ font-size:0.7rem;
+}
+
+/* Define breakpoints and font sizes */
+@media (min-width:640px) and (max-width:1023px) {
+ html {
+  font-size: 1.0625rem;
+ }
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+ html {
+  font-size: 1.125rem;
+ }
+}
+
+/* Define max font size and viewport */
+@media (min-width:1280px) {
+ html {
+  font-size: 1.1875rem;
+ }
+}

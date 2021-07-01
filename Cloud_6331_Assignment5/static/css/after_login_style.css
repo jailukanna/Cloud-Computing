@@ -1,0 +1,49 @@
+
+#order_menu{
+
+width: 100%;
+height: 70px;
+background-color: dimgray;
+}
+
+#list{
+list-style-type: none;
+
+}
+
+
+li{
+    float: left;
+   
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: medium;
+    box-sizing: content-box;
+
+}
+
+
+.btn{
+    color: black;
+    width: auto;
+    background-color:lime;
+    font-size: larger;
+    
+}
+
+#div_list{
+    width: auto;
+    height: 60px;
+}
+
+#table_div{
+    width: auto;
+    height:auto;
+}
+
+
+#table{
+width: 100%;
+height:auto;
+    border: solid 2pt black;
+}
