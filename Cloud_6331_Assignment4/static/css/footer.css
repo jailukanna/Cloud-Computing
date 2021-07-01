@@ -1,0 +1,41 @@
+
+.foot{
+    background-color: #04091e;
+    width: 100%;
+    float: left;
+
+}
+
+
+.foot_div {
+    height: fit-content;
+   float: left;
+    width: 50%;
+    margin: auto;
+
+}
+
+.foot_text {
+    text-align: left;
+    color: whitesmoke;
+    padding-top: 120px;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .foot_div_v{
+        width: 100%;
+        float: left;
+        height: auto;
+
+    }
+    .foot_div_v .foot_text1{
+        line-height: 20px;
+
+    }
+}
