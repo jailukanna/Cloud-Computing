@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link href="/static/css/footer.css" type="text/css" rel="stylesheet">
+
+
+
+<style>
+   .form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+</style>
+
+
+
+  </head>
+  <body>
+
+    <!-- NAVIGATION  -->
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-light badge-dark " style="background-color:#04091e;">
+
+        <div class="conatainer-fluid">
+             <img id="logo" src="static/cloud-computing-502462262-5ac1130e119fa800371ba0a8.jpg" alt="Cloud" class="navbar-brand" style="width: 210px; height: 150px;">
+        </div>
+
+        <div class=" conatainer-fluid" style="background-color:seagreen;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+                <li class="nav-item p-4">
+                    <p style="color:white"></p>
+                     <p style="color:white"> </p>
+                </li>
+
+                <li class="nav-item p-4">
+                    <a class="nav-link active" href="/Homepage" style="color: lightblue;">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item p-4">
+                    <a class="nav-link" href="/gallery" style="color: lightblue;">GALLERY</a>
+                </li>
+
+
+            </ul>
+            <canvas id="canvas" width="100" height="100">
+            </canvas>
+        </div>
+    </nav>
+  <script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var radius = canvas.height / 2;
+    ctx.translate(radius, radius);
+    radius = radius * 0.90
+    setInterval(drawClock, 1000);
+
+    function drawClock() {
+        drawFace(ctx, radius);
+        drawNumbers(ctx, radius);
+        drawTime(ctx, radius);
+    }
+
+    function drawFace(ctx, radius) {
+        var grad;
+        ctx.beginPath();
+        ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+        ctx.fillStyle = 'lightblue';
+        ctx.fill();
+        grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+        grad.addColorStop(0, '#333');
+        grad.addColorStop(0.5, 'white');
+        grad.addColorStop(1, '#333');
+        ctx.strokeStyle = grad;
+        ctx.lineWidth = radius * 0.1;
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+        ctx.fillStyle = '#333';
+        ctx.fill();
+    }
+
+    function drawNumbers(ctx, radius) {
+        var ang;
+        var num;
+        ctx.font = radius * 0.15 + "px arial";
+        ctx.textBaseline = "middle";
+        ctx.textAlign = "center";
+        for (num = 1; num < 13; num++) {
+            ang = num * Math.PI / 6;
+            ctx.rotate(ang);
+            ctx.translate(0, -radius * 0.85);
+            ctx.rotate(-ang);
+            ctx.fillText(num.toString(), 0, 0);
+            ctx.rotate(ang);
+            ctx.translate(0, radius * 0.85);
+            ctx.rotate(-ang);
+        }
+    }
+
+    function drawTime(ctx, radius) {
+        var now = new Date();
+        var hour = now.getHours();
+        var minute = now.getMinutes();
+        var second = now.getSeconds();
+        //hour
+        hour = hour % 12;
+        hour = (hour * Math.PI / 6) +
+            (minute * Math.PI / (6 * 60)) +
+            (second * Math.PI / (360 * 60));
+        drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+        //minute
+        minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+        drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+        // second
+        second = (second * Math.PI / 30);
+        drawHand(ctx, second, radius * 0.9, radius * 0.02);
+    }
+
+    function drawHand(ctx, pos, length, width) {
+        ctx.beginPath();
+        ctx.lineWidth = width;
+        ctx.lineCap = "round";
+        ctx.moveTo(0, 0);
+        ctx.rotate(pos);
+        ctx.lineTo(0, -length);
+        ctx.stroke();
+        ctx.rotate(-pos);
+    }
+</script>
+
+
+    {%  with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-success alert-dismissable" role="alert">
+
+            <input type="button" class="close" data-dismiss="alert" aria-label="close" style="background:Blue;margin-right:30px; width:30px;"><h4 style=" text-align: center;">{{message}}</h4><span aria-hidden="true"></span>
+                    </input>
+
+        </div>
+
+
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+
+  <div class="container">
+    <br/>
+
+	<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+
+                            <form class="card card-sm" method="POST" action="/gallery">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input class="form-control form-control-lg form-control-borderless" type="text" placeholder="Enter First Grade" name="grade1" required> <br>
+                                        <input class="form-control form-control-lg form-control-borderless" type="text" placeholder="Enter Second Grade" name="grade2" required>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button class="btn btn-lg btn-success" type="submit">Search</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+</div>
+
+
+
+
+
+
+
+ <div class="container" style="margin-top:50px">
+
+
+
+  <table class="table table-hover table-dark">
+      <thead>
+     <tr>
+          <th>Name</th>
+              <th>State</th>
+              <th>Salary</th>
+              <th>Grade</th>
+              <th>Room</th>
+              <th>Telnum</th>
+              <th>Picture</th>
+              <th>Keywords</th>
+              <th>ACTION</th>
+     </tr>
+</thead>
+      <tbody>
+      {% for i in post %}
+
+                <tr>
+                    {% if i.name !='' %}
+                      <td>{{ i[1] }}</td>
+                    {% else %}
+                      <td></td>
+                    {% endif %}
+
+                    {% if i.state !='' %}
+                        <td>{{ i[2] }}</td>
+                    {% else %}
+                      <td></td>
+                    {% endif %}
+
+
+                    {% if i.salary !='' %}
+                        <td>{{ i[3] }}</td>
+                    {% else %}
+                      <td></td>
+                    {% endif %}
+
+
+
+
+
+                    {% if i.grade !='' %}
+                      <td>{{ i[4]}}</td>
+                    {% else %}
+                      <td></td>
+                    {% endif %}
+
+
+                    {% if i.room !='' %}
+                        <td>{{ i[5] }}</td>
+                    {% else %}
+                        <td></td>
+                    {% endif %}
+
+
+                    {% if i.telephone !='' %}
+                        <td>{{ i[6] }}</td>
+                    {% else %}
+                        <td></td>
+                    {% endif %}
+
+
+
+                    {% if i[7] !=' ' %}
+                            <td><img src="/static/images/{{i[7]}}" style="width:150px; height: 130px;"></td>
+                    {% else %}
+                            <td style="color: Green">NOT Available</td>
+                    {% endif %}
+
+                    {% if i.keywords !='' %}
+                        <td>{{ i[8] }}</td>
+                    {% else %}
+                            <td></td>
+                    {% endif %}
+
+                </tr>
+
+       {% endfor %}
+      </tbody>
+
+  </table>
+
+ </div>
+<footer class="foot">
+    <div class="container-fluid foot_div">
+        <p class="h6 foot_text">Copyright &copy;2021 All rights reserved | This template is made with &#x1F498;by <span id="name">Aiman Abdullah</span> </p>
+    </div>
+
+
+</footer>
+  </body>
+</html>
+
+

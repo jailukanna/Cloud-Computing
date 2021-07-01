@@ -1,0 +1,17 @@
+Name,Nsize,Distance,Author,Picture,Keywords
+Alice,1,500,bob,alice.jpg,This is Alice
+Pluto,2500,10000000,bob,pluto.jpg,Pluto is far away
+Tiny,4,,alice, ,Tiny is not
+Mars,4550,280,moon,mars.jpg,Who is this
+Moon,1800,0, , ,The moon wow the moon
+Steve, ,499,steve,neptune.jpg, 
+Jupiter,12000,2000000,,,Jupiter is many things
+Cal,88,-1,steve,homer.jpg,So is cal (many things)
+Mercury,,60,,,
+Meena, , ,meena,,Meena Meena
+Neptune,6200,420,bob,neptune.jpg,Neptune is also many things
+Li,6,905,alice,,But not Li
+Io,220,,moon,,I
+Venus,7,888,,venus.jpg,
+Sly,,889,bob,,Sly is here too
+Saturn,9000,2000010,mars,,Rings and things
