@@ -1,0 +1,130 @@
+/* CSS Document */
+.middlebody{
+	height: auto;
+	 
+	margin-top: 5%;
+}
+.containerbox{
+	max-width: 70%;
+}
+.col{
+	height: 30vh;
+	border: 0.0px solid #dad8d8;
+	font-size: 2rem;
+	 box-shadow: 0 0 20px 5px #04091e14;
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 30vh;
+  	text-align: center; 
+	border-radius:30px;
+	font-weight: 600;
+}
+
+.clubdivs{
+	border-radius: 15px; 
+	 box-shadow: 0 0 20px 5px #04091e14;
+	border: 0.0px solid #dad8d8;
+	margin-bottom: 10px;
+}
+
+.allclubs:hover{
+	 background-color: #4CAF50!important;
+}
+
+.allclubs{
+	color:white;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+ 
+
+
+
+.textheading{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2rem;
+}
+
+.linknodecoration {
+	text-decoration: none !important;
+	color: black !important;
+
+}
+
+.sales{
+
+	background-position:center;
+	background-size: 100% 100%;
+	
+}
+.clubs{
+
+	background-position:center;
+	background-size: 100% 100%;
+	
+}
+.exchange{
+	background-position:center;
+	background-size: 100% 100%;
+		
+}
+.messages{
+	background-position:center;
+	background-size: contain;
+
+}
+
+.advs{
+
+	background-position:center;
+	background-size: contain;
+}
+.myprofile{
+
+	background-position:center;
+	background-size: contain;
+}
+	
+.col:hover{
+	box-shadow: 0 0 20px 5px #04091e54;
+	font-size: 2.1rem;
+}
+
+.basetextcolor{
+	color: #9900cc;
+}
+
+.nav-item:hover{
+	background:#2e3036;
+	}
+
+
+.form-control {
+    border: 0;
+}
+
+
+
+/* Define minimum font size */
+html {
+ font-size:0.7rem;
+}
+
+/* Define breakpoints and font sizes */
+@media (min-width:640px) and (max-width:1023px) {
+ html {
+  font-size: 1.0625rem;
+ }
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+ html {
+  font-size: 1.125rem;
+ }
+}
+
+/* Define max font size and viewport */
+@media (min-width:1280px) {
+ html {
+  font-size: 1.1875rem;
+ }
+}
